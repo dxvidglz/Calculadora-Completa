@@ -41,7 +41,7 @@ class TestCalculatorOperations(unittest.TestCase):
 
     def test_addition(self):
         """Prueba que la suma de enteros sea correcta."""
-        result = self.perform_operation('5', '+', '4')
+        result = self.perform_operation('5', '+', '3')
         self.assertEqual(result, '8')
 
         # Prueba con decimales

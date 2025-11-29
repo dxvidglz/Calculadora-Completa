@@ -41,5 +41,5 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: |
-          tu_usuario/calculadora:latest
-          tu_usuario/calculadora:${{ github.sha }}
+          dxvidglz/calculadora:latest
+          dxvidglz/calculadora:${{ github.sha }}
